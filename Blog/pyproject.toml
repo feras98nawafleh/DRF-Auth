@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "drf-auth"
+version = "0.1.0"
+description = ""
+authors = ["feras98nawafleh <feras.a.nawafleh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "4.0;"
+black = "21.12b0;"
+flake8 = "4.0.1;"
+djangorestframework = "3.13.0;"
+asgiref = "3.4.1;"
+"backports.zoneinfo" = "0.2.1;"
+click = "8.0.3;"
+colorama = "0.4.4;"
+mccabe = "0.6.1;"
+mypy-extensions = "0.4.3;"
+pathspec = "0.9.0;"
+platformdirs = "2.4.0;"
+pycodestyle = "2.8.0;"
+pyflakes = "2.4.0;"
+pytz = "2021.3;"
+sqlparse = "0.4.2;"
+tomli = "1.2.3;"
+typing-extensions = "4.0.1"
+tzdata = "2021.5;"
+djangorestframework-simplejwt = "^5.0.0"
+django-shortcuts = "^1.6"
+whitenoise = "^5.3.0"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
